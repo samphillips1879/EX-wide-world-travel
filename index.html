@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHILLIPS world travel</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+</head>
+<body ng-app="TravelApp">
+
+	<h1>Wide World Travel</h1>
+
+
+
+	<div ng-controller="bookCtrl">
+		<ul>
+			<li ng-repeat="book in books">
+				<div>{{book.title}}</div>
+				<div>{{book.type}}</div>
+				<div>{{book.price}}</div>
+			</li>
+		</ul>
+	</div>
+
+
+
+	<!-- <script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script> -->
+	<script type="text/javascript" src="dist/jquery.min.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/controllers/bookCtrl.js"></script>
+</body>
+</html>

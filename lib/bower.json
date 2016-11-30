@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Samuel Phillips <samphillips1879@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
